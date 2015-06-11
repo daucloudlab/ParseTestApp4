@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/detailTextViewNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя" />
+
+    <TextView
+        android:id="@+id/detailTextViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/detailTextViewNameLabel" />
+
+    <TextView
+        android:id="@+id/detailTextViewAgeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailTextViewNameLabel"
+        android:text="Возраст" />
+
+    <TextView
+        android:id="@+id/detailTextViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailTextViewNameLabel"
+        android:layout_toRightOf="@+id/detailTextViewAgeLabel" />
+
+    <TextView
+        android:id="@+id/detailTextViewColorLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailTextViewAgeLabel"
+        android:text="Цвет" />
+
+    <TextView
+        android:id="@+id/detailTextViewColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/detailTextViewAgeLabel"
+        android:layout_toRightOf="@+id/detailTextViewColorLabel" />
+
+</RelativeLayout>
